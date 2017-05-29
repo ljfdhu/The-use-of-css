@@ -1,0 +1,339 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*-webkit-tap-highlight-color: transparent;*/
+    /*-webkit-appearance: none;*/
+}
+
+html, body {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    width: 100%;
+    height: 100%;
+    word-break: break-all;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+    width: auto \9;
+    height: auto;
+    vertical-align: middle;
+    border: 0 none;
+    -ms-interpolation-mode: bicubic;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+a {
+    color: #999;
+    outline: none;
+    text-decoration: none;
+    /*-moz-transition: background-color 0.2s ease-out,color 0.1s ease-out;*/
+    /*-webkit-transition: background-color 0.2s ease-out,color 0.1s ease-out;*/
+    /*-ms-transition: background-color 0.2s ease-out,color 0.1s ease-out;*/
+    /*transition: background-color 0.2s ease-out,color 0.1s ease-out;*/
+}
+
+a:hover {
+    /*color: #f98818;*/
+    /*opacity: 0.8;*/
+    /*filter: alpha(opacity=80);*/
+    text-decoration: none;
+    /*-webkit-transition: all .3s;*/
+    /*-moz-transition: all .3s;*/
+    /*-o-transition: all .3s;*/
+    /*transition: all .3s;*/
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+    outline: none;
+}
+
+input[type="subimt"],
+button,
+.btn {
+    display: inline-block;
++ display: inline;
+    _isplay: inline;
+    zoom: 1;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    empty-cells: show;
+    border-spacing: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+hr {
+    display: block;
+    border: none;
+    border-top: 1px dashed #ddd;
+    height: 0;
+}
+
+body {
+    font-family: 'PingFang SC', 'Microsoft YaHei', Helvetica Neue, 'Hiragino Sans GB', 'WenQuanYi Micro Hei', SimHei, sans-serif;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.container {
+    width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* 清除浮动 */
+.clear {
+    clear: both;
+}
+
+.clearfix:after, .container:after, .form-group:after {
+    content: "";
+    display: table;
+    clear: both;
+    zoom: 1;
+}
+
+.clearfix, .container, .form-group {
+    display: inline-block;
+}
+
+* html .clearfix, * html .container, * html .form-group {
+    height: 1%;
+}
+
+.clearfix, .container, .form-group {
+    display: block;
+}
+
+/* 表单控件 */
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+label {
+    display: inline-block;
++ display: inline;
+    _display: inline;
+    zoom: 1;
+    max-width: 100%;
+    font-weight: normal;
+}
+
+.disabled {
+    cursor: not-allowed;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .65;
+    filter: alpha(opacity=65);
+}
+
+/*文本格式化*/
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-underline {
+    text-decoration: underline
+}
+
+blockquote {
+    padding: 10px 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #333333;
+}
+
+.small, small {
+    font-size: 85%;
+}
+
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
+    font-weight: 400;
+    line-height: 1;
+    font-size: 65%;
+}
+
+.text-darker,
+a.text-darker {
+    color: #333
+}
+
+.text-gary,
+a.text-gary {
+    color: #555;
+}
+
+.text-gary-light,
+a.text-light {
+    color: #999;
+}
+
+.text-green,
+a.text-green {
+    color: #8cd5d5;
+}
+
+.font-12,
+h6 {
+    font-size: 12px;
+}
+
+.font-14,
+h5 {
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18,
+h4 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-24,
+h3 {
+    font-size: 24px;
+}
+
+.font-26 {
+    font-size: 26px;
+}
+
+.font-28 {
+    font-size: 28px;
+}
+
+.font-30,
+h2 {
+    font-size: 30px;
+}
+
+.font-36,
+h1 {
+    font-size: 36px;
+}
+
+.font-42 {
+    font-size: 42px;
+}
+
+
+
+
+
+
