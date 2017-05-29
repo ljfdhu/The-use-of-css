@@ -1,0 +1,18 @@
+/*基准字体的设置，在使用时，1rem=10px  均适用*/
+/*iphone 320px*/
+@media (min-width: 310px) {
+    html{
+        font-size: 53.3%;
+    }
+}
+/*iphone6 375px*/
+@media (min-width: 370px){
+    html{
+        font-size: 62.5%;
+    }
+}
+/*iphone 6plus  414px*/
+@media (min-width: 410px) {
+    html{
+        font-size: 69%;}
+}
